@@ -1,0 +1,45 @@
+% ============================================================
+%  FOLHA DE ROSTO — gerada automaticamente com dados.tex
+%  Nao altere este arquivo.
+% ============================================================
+\begin{titlepage}
+  \begin{center}
+
+    % --- Logo FIED menor no topo ---
+    \includegraphics[height=1.6cm]{imagens/logo_fied.png}
+
+    \vspace{0.4cm}
+    \rule{\textwidth}{0.4pt}
+    \vspace{0.6cm}
+
+    % --- Nome do autor ---
+    {\large\bfseries\MakeUppercase{\oautor}}
+
+    \vspace{3cm}
+
+    % --- Titulo ---
+    {\Large\bfseries\MakeUppercase{\otitulo}}%
+    \ifx\osubtitulo\empty\else
+      \\[0.4cm]{\large\bfseries\MakeUppercase{\osubtitulo}}%
+    \fi
+
+    \vspace{3cm}
+
+    % --- Preambulo (alinhado a direita — padrao ABNT) ---
+    \hspace{.38\textwidth}
+    \begin{minipage}{.58\textwidth}
+      \setstretch{1.2}
+      \small\opreambulo
+      \par\vspace{0.5cm}
+      \textbf{Orientador:} \oorientador
+    \end{minipage}
+
+    \vfill
+
+    \rule{\textwidth}{0.4pt}\\[0.3cm]
+    {\large\bfseries\olocal}\\[0.2cm]
+    {\large\bfseries\oano}
+
+  \end{center}
+\end{titlepage}
+\cleardoublepage
